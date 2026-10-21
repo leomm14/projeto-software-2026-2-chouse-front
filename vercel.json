@@ -1,0 +1,28 @@
+{
+  "rewrites": [
+    {
+      "source": "/api/usuarios",
+      "destination": "http://18.228.48.67:8082/usuarios"
+    },
+    {
+      "source": "/api/usuarios/:path*",
+      "destination": "http://18.228.48.67:8082/usuarios/:path*"
+    },
+    {
+      "source": "/api/enquetes",
+      "destination": "http://18.228.48.67:8081/enquetes"
+    },
+    {
+      "source": "/api/enquetes/:path*",
+      "destination": "http://18.228.48.67:8081/enquetes/:path*"
+    },
+    {
+      "source": "/api/palpites",
+      "destination": "http://18.228.48.67:8080/palpites"
+    },
+    {
+      "source": "/api/palpites/:path*",
+      "destination": "http://18.228.48.67:8080/palpites/:path*"
+    }
+  ]
+}
